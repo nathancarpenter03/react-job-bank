@@ -24,7 +24,7 @@ class Home extends Component {
                 <h1>Job Bank App</h1>
                 <Link to="/jobseeker">
                     <button className="btn btn-primary" id="btn-job-bank">I'm a Job Seeker</button>  
-                </Link><br/>
+                </Link>
                 <Link to="/employer">
                     <button className="btn btn-primary" id="btn-job-bank">I'm an Employer</button>  
                 </Link>
