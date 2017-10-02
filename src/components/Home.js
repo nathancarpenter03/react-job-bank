@@ -53,6 +53,7 @@ class Home extends Component {
 
         return (
             <div className="container">
+<<<<<<< HEAD
             <h1>Stock Prices</h1>
             <form>
               <div>Enter one or more symbols to track: <input type="text" id="symbols" value="GOOG,AAPL"/></div>
@@ -89,6 +90,15 @@ class Home extends Component {
                 <td>{this.state.prices.generatedDate}</td>
               </tr>
             </table>
+=======
+                <h1>Job Bank App</h1>
+                <Link to="/jobseeker">
+                    <button className="btn btn-primary" id="btn-job-bank">I'm a Job Seeker</button>  
+                </Link>
+                <Link to="/employer">
+                    <button className="btn btn-primary" id="btn-job-bank">I'm an Employer</button>  
+                </Link>
+>>>>>>> e0fb55db5631224031cdee1c694357e94988c913
             </div>
         )
     }
